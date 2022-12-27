@@ -1,0 +1,18 @@
+table {
+	border: 1px solid ForestGreen;
+}
+
+td:hover {
+	background-color: LightSalmon;
+	color: SeaGreen;
+}
+
+tr, th {
+	background-color: ForestGreen;
+	color: Gainsboro;
+}
+
+tr, td {
+	background-color: SeaGreen;
+	color: LightSalmon;
+}
