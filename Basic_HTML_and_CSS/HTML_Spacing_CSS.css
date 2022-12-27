@@ -1,0 +1,26 @@
+p {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: lighter;
+	font-style: italic;
+	color: DarkCyan;
+	text-align: center;
+}
+h1 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	text-align: center;
+	color: DarkGreen;
+}
+.paragraph_1 {
+		font-family: 'Cormorant Garamond', serif;
+		font-weight: lighter;
+		font-style: normal;
+		color: DarkCyan;
+		text-align: left;
+}	
+h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	text-align: center;
+	color: DarkGreen;
+}	
