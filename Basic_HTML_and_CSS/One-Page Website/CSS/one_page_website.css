@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------------
+    GENERIC STYLES
+--------------------------------------------------------------------*/
+html {
+    font-family: 'Albert Sans', sans-serif;
+    font-size: medium;
+}
+
+body {
+    font-family: 'Albert Sans', sans-serif;
+}
+
+/*--------------------------------------------------------------------
+    HOME STYLES
+--------------------------------------------------------------------*/
+#home{
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+/*--------------------------------------------------------------------
+    CONTACT STYLES
+--------------------------------------------------------------------*/
+
+.reservation {
+    width: 65%;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.reservation form {
+    font-size: 15px;
+    color: #ccc;
+    border: none;
+    margin: 2%auto;
+    border-radius: 7px;
+}
+
+.reservation input [type="text"] {
+    font-size: 15px;
+    outline: none;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    border-top: 1px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 1px solid;
+    border-radius: 8px;
+}
+
+.form-spacer {
+    padding: 30px 39px;
+}
