@@ -37,7 +37,7 @@ body {
     border-radius: 7px;
 }
 
-.reservation input [type="text"] {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     padding: 2% 1% 2% 7%;
