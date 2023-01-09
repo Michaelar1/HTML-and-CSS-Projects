@@ -1,0 +1,19 @@
+/*----- Makes the image rounded and centered on the page -----*/
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/*----- Flips the image horizontally when the mouse hovers over it -----*/
+img:hover {
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+    margin-top: 20px;
+}
