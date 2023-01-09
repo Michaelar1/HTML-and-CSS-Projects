@@ -1,0 +1,13 @@
+/*----- Centers the image -----*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*----- Rounds the image and applies a contrast filter -----*/
+img {
+    border-radius: 50%;
+    filter: contrast(200%);
+}
