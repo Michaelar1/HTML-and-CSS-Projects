@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(3, 133, 10);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2, p {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+p {
+    font-weight: 400;
+    font-style: italic;
+}
