@@ -1,3 +1,109 @@
+/*-----------------------------------------------------------
+    GENERAL STYLING
+-----------------------------------------------------------*/
+
+html {
+    font-family: serif;
+}
+
 body {
     font-family: 'Marcellus', serif;
+    text-align: center;
+    background-color: #e6f2ff;
+}
+
+.about-container {
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#home {
+    background: url(../Fifth_Challenge/img/penguins.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 350px; /*This is spacer before the Main title Logo*/
+    padding-bottom: 500px; /* This is spacer after the main title logo */
+    color: rgba(0, 102, 204, 1);
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 900;
+ }
+
+ .main-header {
+    font-size: 3em;
+    font-weight: 400;
+    color: rgba(0, 77, 153, 1);
+    padding-top: 40px;
+ }
+ 
+
+/*---------------------------------------------------------------
+    NAVBAR STYLING
+---------------------------------------------------------------*/
+ul {
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(26, 136, 255, .6);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+li{
+    display: inline;
+    float: left;
+    background-color: rgba(26, 136, 255, .6);
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(0, 77, 153, 1);
+}
+
+/*-------------------------------------------------------------
+    FORM STYLING
+-------------------------------------------------------------*/
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form-header {
+    color: rgba(0, 77, 153, 1)
 }

@@ -5,31 +5,38 @@
         <meta charset="UTF-8">
         <meta name="author" content="Michaela R">
         <link rel="stylesheet" type="text/css" href="./fifth_challenge.css">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap'); </style>
     </head>
 
     <body>
         <!-- NAV BAR -->
         <nav>
-            <div class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+            <div class="wrap">
+                <div class="menu-container">
+                    <div class="navbar">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
         <!-- END NAV BAR -->
-
+        <main class="main">
         <!-- HOME -->
             <div id="home">
                 <div class="container">
-                    <h1>The Penguin Conservatory</h1>
+                    <h1 class>The Penguin Conservatory</h1>
                 </div>
             </div>
         <!-- END HOME -->
 
         <!-- ABOUT -->
             <div id="about">
-                <div class="container">
-                    <h3>Welcome to the Penguin Conservatory</h3>
+                <div class="about-container">
+                    <h3 class="main-header">Welcome to the Penguin Conservatory</h3>
                     <img src="./img/galapagos_penguins.jpg" alt="Galapagos Penguins">
                     <p>We at the Penguin Conservatory work to reduce the threats to endangered penguins worldwide.</p>
                     <p>Some species, such as the Galapagos Penguin, have populations as low as 1,200.</p>
@@ -42,7 +49,7 @@
         <!-- CONTACT -->
             <div id="contact">
                 <div class="container">
-                    <h3>Contact Us to Learn How You Can Help!</h3>
+                    <h3 class="form-header">Contact Us to Learn How You Can Help!</h3>
                         <div class="contact-form">
                             <form>
                                 <input type="text" value="" placeholder="First Name">
@@ -56,5 +63,6 @@
                 </div>
             </div>
         <!-- END CONTACT -->
+        </main>
     </body>
 </html>
