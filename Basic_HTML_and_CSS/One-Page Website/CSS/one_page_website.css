@@ -8,7 +8,53 @@ html {
 
 body {
     font-family: 'Albert Sans', sans-serif;
+    background-color: #ececeb;
+    color: #6395B9;
+    text-align: center;
 }
+
+.photo-container img {
+    max-width: 100%;
+    width: 400px;
+    height: 269px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #958d8c;
+    padding-bottom: 50px;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding-right: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    color: #13311B;
+    font-weight: 700;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #13311B;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+li:hover {
+    background-color: #d0d1d1;
+    padding-bottom: 18px;
+}
+
+.photo-gallery {
+    padding-top: 50px;
+}
+
 
 /*--------------------------------------------------------------------
     HOME STYLES
@@ -17,6 +63,8 @@ body {
     font-family: 'Albert Sans', sans-serif;
     font-weight: 700;
     font-size: 5em;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /*--------------------------------------------------------------------
@@ -27,6 +75,7 @@ body {
     width: 65%;
     border-radius: 10px;
     margin: 0px auto;
+    padding-top: 50px;
 }
 
 .reservation form {
@@ -49,6 +98,137 @@ body {
     border-radius: 8px;
 }
 
+.reservation input[type=submit] {
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
 .form-spacer {
     padding: 30px 39px;
+}
+
+/*-----------------------------------------------------------
+    MODAL/LIGHTBOX STYLING
+-----------------------------------------------------------*/
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Create equal columns that float next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #13311B;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #d0d1d1;
+    margin: auto;
+    padding: 0%;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Next and previous buttons */
+.prev, 
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the next button to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption Text */
+.caption-container {
+    font-family: 'Albert sans', sans-serif;
+    text-align: center;
+    background-color: #13311B;
+    padding: 2px 16px;
+    color: #ececeb;
+}
+
+img.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px, 20px 0 rgba(0, 0, 0, 0.19);
 }
