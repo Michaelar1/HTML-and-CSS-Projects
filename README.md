@@ -37,7 +37,7 @@
  This project was used HTML and CSS to create gallery-style containers for images, to give them text overlays, and create hover effects
  
  ### One-Page Website
-  This project is still in development. It is an example one-page site for a tourism company in Aarhus, Denmark. This site is styled with CSS and includes an imbedded video, an image gallery, and a form. 
+  This project is an example one-page site for a tourism company in Aarhus, Denmark. This site is styled with CSS and includes an imbedded video, an image gallery, and a form. It also has an interactive lightbox slideshow using CSS and JavaScript. 
  
 ### Portfolio Website
  This is a functioning site that will house my portfolio. It is styled with CSS and contains a navbar, columns, links, image containers, and a form. It can be viewed [here](https://michaelar1.github.io/).
