@@ -50,7 +50,7 @@ p {
     font-family: 'Albert Sans', sans-serif;
     text-align: justify;
     letter-spacing: .1vw;
-    font-size: 2.5vw;
+    font-size: 1.6vw;
     padding-left: 1vw;
     padding-right: 1vw;
     color: #f3f3f3;
@@ -141,7 +141,7 @@ footer {
     padding: .75vw 1vw;
     text-decoration: none;
     font-family: 'Tahoma', sans-serif;
-    font-size: 3.5vw;
+    font-size: 2vw;
     text-align: center;
     position: relative;
     -webkit-animation: moveNavText 5.75s;
@@ -471,7 +471,6 @@ button:hover, .form-container .btn:hover {
     }
 }
 
-
 @media screen and (min-width: 528px) and (max-width: 660px) {
     p {
         font-size: 3.5vw;
@@ -480,6 +479,83 @@ button:hover, .form-container .btn:hover {
 
 @media screen and (min-width: 661px) and (max-width: 799px) {
     p {
-        font-size: 3.5vw;
+        font-size: 2.75vw;
     }
 }
+
+@media screen and (min-width: 800px) and (max-width: 924px) {
+    p {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 925px) and (max-width: 1050px) {
+    p {
+        font-size: 2.25vw;
+    }
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1310px) {
+    p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 1311px) and (max-width: 1535px) { 
+    p {
+        font-size: 1.75vw;
+    }
+}
+
+@media screen and (min-width: 1536px) and (max-width: 2269px) {
+    p {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 2270px) {
+    p {
+        font-size: 1.35vw;
+    }
+}
+
+/* Media rule for navbar links for different screen sizes */
+
+@media screen and (max-width: 1080px) {
+    .Navbar a {
+        width: 20%;
+        font-size: 2.5vw;
+    }
+}
+
+/* Media rules to enlarge the fot of the white text for smaller screens */
+@media screen and (max-width: 1080px) {
+    .quote {
+        font-size: 3.35vw;
+    }
+    .white-text {
+        font-size: 4.5vw;
+    }
+}
+
+/* Media rules to increase the size of the columns for larger screens */
+@media screen and (min-width: 1725px) {
+    .column_1 {
+        height: 550px;
+    }
+    .column_2 {
+        height: 550px;
+    }
+}
+
+/* Media rule to remove margin-top from h1 elements for extra
+large screens */
+@media screen and (min-width: 2000px) {
+    h1 {
+        margin-top: 0;
+    }
+}
+
+/*-----------------------------------------------------------------------
+    END OF MEDIA QUERY SECTION
+-----------------------------------------------------------------------*/
